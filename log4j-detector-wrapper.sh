@@ -48,3 +48,6 @@ for fs in $(mount -v | grep -E -v "nfs|oracle|tmpfs|lofs|ctfs|objfs|fd|devfs|mnt
   done
 done
 
+echo "Java not found on this system!"
+echo "---------------------------------------------------------------"
+exit 0
