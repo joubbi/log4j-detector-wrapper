@@ -10,7 +10,7 @@
 #                                                                     #
 #######################################################################
 
-LOG4JDETECTOR="log4j-detector-2021.12.15.jar"
+LOG4JDETECTOR="log4j-detector-2021.12.16.jar"
 
 if [ -d "/opt" ]; then
   SCANPATHS="/opt /var /usr /root"
