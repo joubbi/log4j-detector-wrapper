@@ -43,7 +43,7 @@ for fs in $(mount -v | grep -E -v "nfs|oracle|tmpfs|lofs|ctfs|objfs|fd|devfs|mnt
       echo "---------------------------------------------------------------"
       "${file}" -jar "$LOG4JDETECTOR" $SCANPATHS
       echo "---------------------------------------------------------------"
-      exit
+      exit 123
     fi
   done
   err=$?; [[ $err -ne 0 ]] && exit $err
